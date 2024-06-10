@@ -1,0 +1,74 @@
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(140deg, orange, pink);
+}
+
+h1{
+    color: rgb(56, 37, 37);
+    font-weight: bolder;
+    font-size: 3em;
+    text-shadow: 1px 2px 3px rgba(255, 255, 255, .5);
+    margin: 5px 0;
+}
+.btn{
+    text-align: center;
+    font-size: .77em;
+    color: black;
+    border-radius: 6px;
+    border: none;
+    width: 150px;
+    height: 35px;
+    padding: 5px 0;
+    font-weight: bold;
+    margin: 5px ;
+    cursor: pointer;
+}
+.notes-container{
+}
+.input-paragraph{
+    position: relative;
+    background-color: rgb(59, 57, 52);
+    color: aliceblue;
+    max-width: 300px;
+    height:300px;
+    outline: none;
+    min-height: 140px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    display: none;
+}
+.save{
+    position: absolute;
+    bottom:17%;
+    right: 5px;
+    display: none;
+    background-color: rgb(46, 156, 46);
+    color: white;
+}
+.delete{
+    background-color: red;
+    color: aliceblue;
+    margin: 0 !important;
+    width: 40px;
+    margin-left: auto;
+}
+.back{
+    display: none;
+}
+.saved-notes{
+    margin: 0 30px;
+}
+.saved-text{
+    background-color: rgb(59, 57, 52);
+    height: auto;
+    overflow: hidden;
+    border-radius: 8px;
+    width: 50%;
+    color: grey;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
